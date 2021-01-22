@@ -1,0 +1,26 @@
+{      
+   "username": "jasperadmin|organization_1",
+   "label": "Test Report",  
+   "trigger": {"simpleTrigger":    {
+      "timezone": "America/Chicago",
+      "startType": 2,
+      "startDate": "2021-12-02 13:01",
+      "misfireInstruction": 0,
+      "occurrenceCount": 1
+   }},
+   "baseOutputFilename": "D_ALL_PORTFOLIOS_New_Layout_Holdings_and_Analytics-2020-12-02",
+   "outputLocale": "en_US",
+   "outputTimeZone": "Etc/UTC",
+   "source":    {
+      "reportUnitURI": "/reports/D_ALL_PORTFOLIOS_New_Layout_Holdings_and_Analytics",
+      "parameters": {"parameterValues": {"REPORTING_DATE_1": ["2021-12-02T11:53:42"]}}
+   },
+   "outputFormats": {"outputFormat": ["CSV"]},
+   "repositoryDestination":    {         
+      "overwriteFiles": true,
+      "sequentialFilenames": false,      
+      "saveToRepository": false,
+      "usingDefaultReportOutputFolderURI": false,
+      "outputLocalFolder": "/mnt/Holding_&_Analytics"     
+   }
+}
